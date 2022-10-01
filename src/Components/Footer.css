@@ -1,0 +1,39 @@
+.main-main-footer{
+ background-color: #ebeeef;
+ padding: 10px 0;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    border:3px solid red;
+    margin:40px 80px;
+ 
+}
+.main-footer div{
+     margin-right: 5px;
+}
+.scl-icon{
+    
+    display: flex;
+    border:1px solid orange;
+    gap:2px;
+}
+.scl-icon>div>a>img{
+   width:15px;
+   /* margin-left: 10px; */
+}
+.scl-icon a{
+    margin-right: 10px;  
+}
+.footer-head{
+   
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main-footer>div>p{
+    margin-bottom: 5px;
+}
+.main-footer>div>p:hover{
+    color: blue;
+    cursor: pointer;
+}

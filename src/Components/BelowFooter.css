@@ -1,0 +1,9 @@
+.main{
+    border: 2px solid;
+    display: flex;
+    padding: 20px 70px;
+    justify-content: space-between;
+    background-color: #002f34;
+    color: white;
+    font-size: 14px;
+}

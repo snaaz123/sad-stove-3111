@@ -10,13 +10,11 @@
 }
 
 input{
- padding: 1rem 6rem;
+ padding: 1rem 8rem;
  border:2px solid black;
-
-
 }
 button{
-  padding: 1rem;   
+  padding: 5rem;   
 }
 .search-button{
     background-color: #002f34;
