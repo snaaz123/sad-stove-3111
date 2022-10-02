@@ -1,0 +1,35 @@
+.main-main{
+background-color: #ffffff;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.main-sec{
+    display: flex;
+  
+    margin: 5px 40px;
+  align-items: center;
+  background-color: #ffffff;
+}
+.main-sec>div{
+      margin-right: 80px;
+}
+.google-icon{
+    display: flex;
+}
+.google-icon>a>img{
+    width: 100px;
+}
+.middle-div{
+    width: 30%;
+}
+.try-the-olx-app{
+    font-size: 34px;
+    color: 002f34;
+    font-weight: bold;
+}
+.buy-sell{
+    font-size: 20px;
+}
+.get-your-app{
+    font-weight: bold;
+   padding-bottom: 20px;
+}

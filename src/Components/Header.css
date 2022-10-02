@@ -1,27 +1,36 @@
-
-.Main-header{
+.Main-header {
+  display: flex;
+  align-items: center;
   
-    display: flex;
-    align-items: center;
-   justify-content: space-between;
-   padding: 10px 16px;
-  
-  
+  padding: 10px 16px;
+  color: #002f34;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Main-header>div{
+ margin-right: 23px;
+}
+img{
+ margin-right: 23px;
+}
+input {
+  padding: 1rem 8rem;
+  border: 2px solid black;
+}
+button {
+  padding: 5rem;
 }
 
-input{
- padding: 1rem 6rem;
- border:2px solid black;
-
-
+.sell-btn {
+  border: 1px;
 }
-button{
-  padding: 1rem;   
+.eng-log{
+  font-weight: 500;
+ 
 }
-.search-button{
-    background-color: #002f34;
-   border:2px solid #002f34;
-    color: white;
-     border-radius: 5%;
+.eng-log:hover{
+   cursor: pointer;
+  text-decoration: none;
 }
-
+.ll{
+  display: flex;
+}
