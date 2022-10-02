@@ -10,22 +10,24 @@ function AllCategories(){
     { path: "/users", title: "Users" },
   ];
     return (
-      <div className="main-all-cat">
-        <div>
-          <Text fontSize="lg" as="b">
-            ALL CATEGORIES
-            {<ChevronDownIcon className="ch-icon" />}
-          </Text>
+      <div className="main-cat">
+        <div className="main-all-cat">
+          <div>
+            <Text fontSize="sz" as="b">
+              ALL CATEGORIES
+              {<ChevronDownIcon className="ch-icon" />}
+            </Text>
+          </div>
+
+          <div className="menu">Cars</div>
+          <div className="menu">Motorcycles</div>
+          <div className="menu">Mobile Phones</div>
+          <div className="menu">For Sale: Houses & Apartments</div>
+          <div className="menu">Scooters</div>
+          <div className="menu">Commercial & Other Vehicles</div>
+          <div className="menu">For Rent: Houses & Apartments</div>
         </div>
-        <Routes>
-          <Route path="/" element={<h1>About</h1>}></Route>
-          {/* Path:what is tha path 
-      elemet:Which element you want to show*/}
-          <Route path="/" element={<h1>hghfg</h1>}></Route>
-          <Route path="/" element={<h1>About</h1>}></Route>
-        </Routes>
       </div>
-      
     );
 
 

@@ -1,7 +1,27 @@
 .ch-icon{
-    font-size: 45px;
+    font-size: 35px;
+}
+.main-cat{
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .main-all-cat{
-  
+  width: 95%;
+  margin: auto;
 display: flex;
+align-items: center;
+
+margin-top: 5px;
+padding: 5px 0;
+ color: #002f34;
+ 
+}
+.main-all-cat>div{
+margin-right: 15px;
+}
+.menu:hover{
+   
+    cursor: pointer;
+    color: aqua;
 }
